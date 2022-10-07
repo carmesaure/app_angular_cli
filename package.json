@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:ci": "ng build --base-href /app_angular_cli/",
-    "test:ci": "ng test --watch=false --code-coverage"
+    "test:ci": "ng test --watch=false --code-coverage --browsers=ChromeHeadlessCI"
   },
   "private": true,
   "dependencies": {
